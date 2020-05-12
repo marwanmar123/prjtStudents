@@ -439,6 +439,13 @@ form {
         font-weight: bold;
     }
 
+    .close {
+        position: absolute;
+        top: 11em;
+        left: 56em;
+        z-index: 6666;
+    }
+
     .container2 {
         background-color: $colorW;
         border-radius: 10px;
@@ -458,6 +465,13 @@ form {
     .h1pop {
         font-size: 1.5em;
         font-weight: bold;
+    }
+
+    .close {
+        position: absolute;
+        top: 11em;
+        left: 35em;
+        z-index: 2222;
     }
 
     .container2 {
@@ -481,6 +495,13 @@ form {
         font-weight: bold;
     }
 
+    .close {
+        position: absolute;
+        top: 5em;
+        left: 21em;
+        z-index: 2222;
+    }
+
     .container2 {
         background-color: $colorW;
         border-radius: 10px;
@@ -500,6 +521,13 @@ form {
     .h1pop {
         font-size: .8em;
         font-weight: bold;
+    }
+
+    .close {
+        position: absolute;
+        top: 5em;
+        left: 23em;
+        z-index: 2222;
     }
 
     .container2 {
