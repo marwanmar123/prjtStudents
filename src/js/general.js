@@ -24,6 +24,6 @@ popup.addEventListener('click', function () {
         window.scrollTo(0, 0);
     }
 });
-document.querySelector('.popimg').addEventListener('click', function () {
+document.querySelector('#close').addEventListener('click', function () {
     document.querySelector('#popup').style.display = "none";
 });

@@ -351,19 +351,17 @@ hr {
     display: none;
 }
 
+#close {
+    position: absolute;
+    top: 16em;
+    left: 87em;
+    z-index: 2222;
+}
+
 .h1pop {
     font-size: 2em;
     font-weight: bold;
 }
-
-// .Ppop {
-//     text-align: center;
-//     font-size: 14px;
-//     font-weight: 100;
-//     line-height: 20px;
-//     letter-spacing: 0.5px;
-//     margin: 20px 5px 30px;
-// }
 
 span {
     font-size: 12px;
