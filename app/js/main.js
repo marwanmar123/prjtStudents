@@ -10,9 +10,3 @@ signUpButton.addEventListener('click', () => {
 signInButton.addEventListener('click', () => {
     container.classList.remove("right-panel-active");
 });
-popup.addEventListener('click', function () {
-    document.querySelector('#popup').style.display = "block";
-});
-document.querySelector('.close').addEventListener('click', function () {
-    document.querySelector('#popup').style.display = "none";
-})

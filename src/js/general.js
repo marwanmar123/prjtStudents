@@ -12,12 +12,6 @@ signInButton.addEventListener('click', () => {
 });
 popup.addEventListener('click', function () {
     document.querySelector('#popup').style.display = "block";
-});
-document.querySelector('.close').addEventListener('click', function () {
-    document.querySelector('#popup').style.display = "none";
-})
-popup.addEventListener('click', function () {
-    document.querySelector('#popup').style.display = "block";
     window.addEventListener('scroll', noscroll);
 
     function noscroll() {
