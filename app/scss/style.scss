@@ -239,12 +239,13 @@ $colorW:#FFFFFF;
 
 .container {
     margin: 2em auto;
-    max-width: 1400px;
+    max-width: 71vw;
     box-shadow: 6px 7px 19px 3px rgba(149, 152, 154, 0.554);
     padding: 3em;
     border-radius: .3em;
 
     .check {
+
         input {
             border: 2px solid $colorOr;
             border-radius: 5px;
@@ -260,6 +261,15 @@ $colorW:#FFFFFF;
     }
 }
 
+hr {
+    width: 7vw;
+    border: 2px solid $colorOr;
+}
+
+.h2demnd {
+    font-size: 1.3vw;
+}
+
 .activité {
     color: rgba(149, 152, 154, 0.781);
     display: flex;
@@ -269,4 +279,59 @@ $colorW:#FFFFFF;
 
 .agenda {
     text-align: center;
+    padding-bottom: 3em;
+
+    iframe {
+        width: 76vw;
+    }
+}
+
+.PRGRS {
+    margin-left: 4em;
+}
+
+.hr2 {
+    width: 18vw;
+    border: 2px solid $colorOr;
+}
+
+.progress__bar {
+    display: inline-block;
+    width: 20%;
+    height: 18px;
+    border-radius: 20px;
+    border: 1px solid $colorOr;
+    background-color: $colorW;
+
+    .bar {
+        height: 100%;
+        width: calc(1* calc(100% / 22));
+        background-color: $colorR;
+        border-bottom-left-radius: 20px;
+        border-top-left-radius: 20px;
+    }
+}
+
+.prgrsNum {
+    display: inline-block;
+    position: relative;
+    left: 21vw;
+    bottom: 1.7vw;
+}
+
+.addscience {
+    color: white;
+    font-size: 1vw;
+    background-color: $colorOr;
+    text-decoration: none;
+    padding: 1vw 3vw;
+    border-radius: 2em;
+    font-weight: 700;
+    margin-top: 1em;
+    position: relative;
+    top: 1vw;
+
+    img {
+        width: 1.5vw;
+    }
 }
