@@ -236,3 +236,37 @@ $colorW:#FFFFFF;
         }
     }
 }
+
+.container {
+    margin: 2em auto;
+    max-width: 1400px;
+    box-shadow: 6px 7px 19px 3px rgba(149, 152, 154, 0.554);
+    padding: 3em;
+    border-radius: .3em;
+
+    .check {
+        input {
+            border: 2px solid $colorOr;
+            border-radius: 5px;
+            padding: 5px;
+            font-weight: 600;
+            width: 15%;
+        }
+
+        label {
+            font-weight: 700;
+            padding: 1em;
+        }
+    }
+}
+
+.activité {
+    color: rgba(149, 152, 154, 0.781);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agenda {
+    text-align: center;
+}
