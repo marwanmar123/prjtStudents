@@ -21,8 +21,9 @@ $colorW:#FFFFFF;
     }
 
     .inscr {
-        font-size: 2vw;
-
+        font-size: 1vw;
+        text-decoration: none;
+        font-weight: 700;
     }
 }
 
@@ -223,6 +224,11 @@ $colorW:#FFFFFF;
 
 @media only screen and (max-width:500px) {
     .footer {
+
+        &__serv {
+            padding-top: 0em;
+        }
+
         &__social {
             img {
                 width: 15%;
