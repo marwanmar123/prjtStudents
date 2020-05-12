@@ -3,7 +3,7 @@ $colorV:#00BFA6;
 $colorOr:#F9A826;
 $colorR:#F50057;
 $colorW:#FFFFFF;
-$colorB:#000;
+$colorB:rgba(0, 0, 0, 0.527);
 $colorX:#ccc;
 
 * {
@@ -343,27 +343,27 @@ hr {
 
 #popup {
     width: 100%;
-    height: 131vw;
+    height: 400%;
     position: absolute;
-    top: 0;
-    background-color: $colorV;
+    top: 0%;
+    background-color: $colorB;
     z-index: 1111;
     display: none;
 }
 
 .h1pop {
+    font-size: 2em;
     font-weight: bold;
-    margin: 0;
 }
 
-.Ppop {
-    text-align: center;
-    font-size: 14px;
-    font-weight: 100;
-    line-height: 20px;
-    letter-spacing: 0.5px;
-    margin: 20px 5px 30px;
-}
+// .Ppop {
+//     text-align: center;
+//     font-size: 14px;
+//     font-weight: 100;
+//     line-height: 20px;
+//     letter-spacing: 0.5px;
+//     margin: 20px 5px 30px;
+// }
 
 span {
     font-size: 12px;
@@ -371,7 +371,7 @@ span {
 
 .apop {
     color: $colorB;
-    font-size: 14px;
+    font-size: 1vw;
     text-decoration: none;
     margin: 15px 0;
 }
@@ -381,9 +381,9 @@ button {
     border: 1px solid $colorOr;
     background-color: $colorOr;
     color: #FFFFFF;
-    font-size: 12px;
+    font-size: .9vw;
     font-weight: bold;
-    padding: 12px 45px;
+    padding: .5vw 2vw;
     letter-spacing: 1px;
     text-transform: uppercase;
     transition: transform 80ms ease-in;
@@ -416,7 +416,7 @@ form {
 .input2 {
     background-color: $colorW;
     border: 1px solid $colorOr;
-    padding: 12px 15px;
+    padding: 1vw 2vw;
     margin: 8px 0;
     width: 100%;
 }
@@ -426,15 +426,97 @@ form {
     border-radius: 10px;
     box-shadow: 0 14px 28px $colorX,
         0 10px 10px $colorX;
-    position: relative;
     overflow: hidden;
-    width: 768px;
-    max-width: 100%;
-    min-height: 480px;
+    width: 55em;
+    min-height: 37em;
     position: relative;
     top: 13vw;
     left: 30vw;
 
+}
+
+@media only screen and (max-width:1700px) {
+    .h1pop {
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    .container2 {
+        background-color: $colorW;
+        border-radius: 10px;
+        box-shadow: 0 14px 28px $colorX,
+            0 10px 10px $colorX;
+        overflow: hidden;
+        width: 40em;
+        min-height: 30em;
+        position: relative;
+        top: 10vw;
+        left: 20vw;
+
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .h1pop {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    .container2 {
+        background-color: $colorW;
+        border-radius: 10px;
+        box-shadow: 0 14px 28px $colorX,
+            0 10px 10px $colorX;
+        overflow: hidden;
+        width: 30em;
+        min-height: 28em;
+        position: relative;
+        top: 17vw;
+        left: 15vw;
+
+    }
+}
+
+@media only screen and (max-width:700px) {
+    .h1pop {
+        font-size: 1em;
+        font-weight: bold;
+    }
+
+    .container2 {
+        background-color: $colorW;
+        border-radius: 10px;
+        box-shadow: 0 14px 28px $colorX,
+            0 10px 10px $colorX;
+        overflow: hidden;
+        width: 22em;
+        min-height: 24em;
+        position: relative;
+        top: 12vw;
+        left: 10vw;
+
+    }
+}
+
+@media only screen and (max-width:450px) {
+    .h1pop {
+        font-size: .8em;
+        font-weight: bold;
+    }
+
+    .container2 {
+        background-color: $colorW;
+        border-radius: 10px;
+        box-shadow: 0 14px 28px $colorX,
+            0 10px 10px $colorX;
+        overflow: hidden;
+        width: 20em;
+        min-height: 23em;
+        position: relative;
+        top: 12vw;
+        left: 7vw;
+
+    }
 }
 
 .form-container {
