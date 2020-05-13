@@ -26,6 +26,10 @@ $colorX:#ccc;
         font-size: 1vw;
         text-decoration: none;
         font-weight: 700;
+
+        img {
+            width: 3vw;
+        }
     }
 }
 
@@ -36,11 +40,11 @@ $colorX:#ccc;
     padding: 1em 2em;
 
     &__text {
-        width: 50%;
+        width: 55%;
 
         h1 {
             margin-top: 2em;
-            font-size: 2.5vw;
+            font-size: 2.3vw;
             color: white;
             font-weight: bold;
             width: 97%;
@@ -48,16 +52,16 @@ $colorX:#ccc;
         }
 
         p {
-            font-size: 1.5vw;
+            font-size: 1.3vw;
             color: white;
             font-weight: 500;
-            width: 97%;
+            width: 94%;
         }
 
         a {
             color: white;
             position: relative;
-            top: 2em;
+            top: 4.5vw;
             font-size: 1vw;
             background-color: $colorOr;
             text-decoration: none;
@@ -69,7 +73,7 @@ $colorX:#ccc;
     }
 
     &__img {
-        width: 50%;
+        width: 45%;
     }
 }
 
@@ -84,10 +88,10 @@ $colorX:#ccc;
             font-size: 2vw;
         }
 
-        .inscr {
-            font-size: 2vw;
+        // .inscr {
+        //     font-size: 2vw;
 
-        }
+        // }
     }
 
     .header {
@@ -101,21 +105,23 @@ $colorX:#ccc;
 
         &__text {
             width: 100%;
+            text-align: center;
 
             h1 {
-                margin-top: 1em;
+                margin: .4em auto;
                 font-size: 3vw;
                 color: white;
                 font-weight: bold;
-                width: 97%;
+                width: 50%;
                 padding-bottom: .7em;
             }
 
             p {
+                margin: 0em auto;
                 font-size: 1.6vw;
                 color: white;
                 font-weight: 500;
-                width: 97%;
+                width: 50%;
             }
 
             a {
@@ -187,11 +193,17 @@ $colorX:#ccc;
 
         h1 {
             color: $colorW;
+            font-size: 4vmin;
         }
 
         h3 {
             color: $colorW;
-            font-size: 1em;
+            font-size: 2.5vmin;
+        }
+
+        h4 {
+            font-weight: 500;
+            font-size: 2vmin;
         }
     }
 
@@ -221,22 +233,23 @@ $colorX:#ccc;
     }
 
     &__social {
+        display: flex;
+
         img {
-            width: 30%;
+            width: 3vw;
         }
     }
 }
 
 @media only screen and (max-width:500px) {
     .footer {
-
         &__serv {
             padding-top: 0em;
         }
 
         &__social {
             img {
-                width: 15%;
+                width: 3vw;
             }
         }
     }
