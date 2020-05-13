@@ -36,10 +36,11 @@ $colorX:#ccc;
     padding: 1em 2em;
 
     &__text {
+        width: 50%;
 
         h1 {
             margin-top: 2em;
-            font-size: 3vw;
+            font-size: 2.5vw;
             color: white;
             font-weight: bold;
             width: 97%;
@@ -47,7 +48,7 @@ $colorX:#ccc;
         }
 
         p {
-            font-size: 1.6vw;
+            font-size: 1.5vw;
             color: white;
             font-weight: 500;
             width: 97%;
@@ -99,6 +100,7 @@ $colorX:#ccc;
         text-align: center;
 
         &__text {
+            width: 100%;
 
             h1 {
                 margin-top: 1em;
